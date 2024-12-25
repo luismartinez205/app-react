@@ -19,7 +19,21 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1c1d1d;
+  text-decoration: none;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s linear;
+}
+.App-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  background: #050505;
+  padding:15px 25px;
+  border-radius: 15px;
 }
 
 .heart {

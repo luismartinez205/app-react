@@ -1,15 +1,15 @@
 import './App.css';
 
-function App(props) {
+function Card() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={props.imagen} className="App-logo" alt="logo" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtk570HKSLfdmQRKnVqujHuI63zpyZDnnCJg&s" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces Ama a <span className="heart">♥️</span> {props.lengua}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque nobis eveniet.
         </p>
         <p className="small">
-         Aqui Puedes probrar y Practicar {props.lengua}
+         Este es el primer componente que
         </p>
         <p>
           <a
@@ -26,4 +26,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default Card;
