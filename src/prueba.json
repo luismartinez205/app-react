@@ -1,0 +1,19 @@
+[
+    {
+        "nombre": "luis martinez",
+        "ocupacion": "programador",
+        "telefono":65153550,
+        "direccion":"planta de molde",
+        "correo":"luisfrancisco198@gmail.com",
+        "cedula":97542395        
+      }
+      ,
+      {
+        "nombre": "luciana pineda",
+        "ocupacion": "ama de casa",
+        "telefono":65153550,
+        "direccion":"planta de molde",
+        "correo":"lucianapineda198@gmail.com",
+        "cedula":17151989        
+      }
+]
