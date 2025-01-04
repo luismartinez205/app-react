@@ -19,7 +19,9 @@ function Bienvenida() {
             allowfullscreen
           ></iframe>
           <div className='contenedor-parafo'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, expedita saepe atque, molestiae dolorem corrupti ipsa facere maxime quas eum delectus amet rerum eos minima excepturi ullam et, quod nesciunt?</p>
+            <h1 className='article_title text'>Descubre Bocas del Toro: Paraíso Tropical en el Caribe Panameño</h1>
+            <p className='parafo'><strong>¿Buscas aventura, relajación y cultura en un solo destino?</strong> Bocas del Toro es el lugar perfecto. Sus aguas cristalinas, playas de arena blanca y vibrante vida marina te esperan.</p>
+            <p className='parafo'>Bocas del Toro es un archipiélago en la costa caribeña de Panamá. La isla principal, Isla Colón, es el centro de la región y el lugar perfecto para comenzar tu aventura. Aquí encontrarás una mezcla de culturas, desde los indígenas Ngöbe-Buglé hasta los colonos afrocaribeños.</p>
           </div>
           </div></>
         

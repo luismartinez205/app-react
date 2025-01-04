@@ -22,7 +22,8 @@ body {
 iframe {
   margin-left: 0px;
   margin-bottom: 0px;
-  width: 1200px;
+  width: 1119px;
+  margin-top: 10px;
 }
 .redes_iframe{
   width: 369px;
@@ -291,7 +292,7 @@ iframe {
 
 .article_title {
   margin-left: 73px;
-  margin-top: 19px;
+  margin-top: 22px;
   margin-bottom: 16px;
   /* max-width: max-content; */
   color: #bfc506;

@@ -14,3 +14,19 @@
 .contenedor-parafo{
     width: 85%;
 }
+.parafo{
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.text{
+    font-size: 23px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+strong{
+    color: #d1d626;
+    font-weight: 500;
+}
