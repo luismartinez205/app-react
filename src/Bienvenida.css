@@ -1,0 +1,16 @@
+.contenedor{
+    background-color: rgb(249, 249, 252);
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    gap: 10px;
+}
+.container-title{
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+}
+
+
+.contenedor-parafo{
+    width: 85%;
+}

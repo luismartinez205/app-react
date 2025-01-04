@@ -1,22 +1,27 @@
+import './Bienvenida.css';
+import Header from './Header';
 import './App.css';
-
 
 function Bienvenida() {
   return (
-    <><div className="Footer">
-          <div className="Logo">
-              <img src="https://images.vexels.com/content/137617/preview/geometric-logo-abstract-2ba9b8.png" className="mail" />
-              <span className="span">Test Appis</span>
+    <>
+    <Header/>
+    <h2 class="article_title">Bienvenido(a) a Bocas!</h2>
+    <div className="contenedor">    
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VgnnPDIpNhI?si=bTpf2aibau6_MAsR"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div className='contenedor-parafo'>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, expedita saepe atque, molestiae dolorem corrupti ipsa facere maxime quas eum delectus amet rerum eos minima excepturi ullam et, quod nesciunt?</p>
           </div>
-          <a href="mailto:luisfrancisco198@gmail.com">
-              <img src="https://as2.ftcdn.net/v2/jpg/02/59/38/43/1000_F_259384390_LZjy7LNM3zeLSXMILA0NphvmOzUQXSuj.jpg" alt="" className="mail" /></a>
-      </div><div className="bienvenida">
-              <img src="https://images.vexels.com/content/137617/preview/geometric-logo-abstract-2ba9b8.png" className="img-bien" />
-              <h1 className='heart'>Que es Test Appis ?</h1>
-              <p className='paragraf'>Una aplicacion web donde se utilizo React, React router Dom y el consumo de varias Apis Publicas</p>
-              <a className='paragraf fondo' href="/Login">Empezemos</a>
           </div></>
-        
         
       );
     }

@@ -20,8 +20,9 @@ body {
   border-radius: 10px;
 }
 iframe {
-  margin-left: 48px;
-  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 1200px;
 }
 .redes_iframe{
   width: 369px;
@@ -99,7 +100,7 @@ iframe {
 }
 
 .nav {
-  height: 80px;
+  height: 65px;
   list-style: none;
   background-color: rgba(206, 212, 16, 0.897);
   grid-column: span 3;
@@ -289,9 +290,10 @@ iframe {
 }
 
 .article_title {
-  margin-left: 51px;
-  margin-bottom: 18px;
-  max-width: max-content;
+  margin-left: 73px;
+  margin-top: 19px;
+  margin-bottom: 16px;
+  /* max-width: max-content; */
   color: #bfc506;
   font-weight: 400;
 }

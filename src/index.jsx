@@ -6,12 +6,12 @@ import Json from './Json';
 import Rick from './Rick'; 
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter ,RouterProvider} from 'react-router-dom';
-import Header from './Header';
+import Bienvenida from './Bienvenida';
 
 const router=createBrowserRouter([
 {
   path:'/',
-  element:<Header/>,
+  element:<Bienvenida/>,
 },
 {
   path:'/mapa',

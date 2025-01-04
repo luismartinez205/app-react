@@ -3,6 +3,7 @@ import './header.css';
 
 function Header() {
   return (
+    
     <div className="container">
     <header className="hero">
       <h1 className="hero_h1">Bocas Del Toro</h1>
@@ -35,8 +36,7 @@ function Header() {
       <div className='nav-btn'>
       <a className=" disabled sesion" href="./mapa.html">Iniciar Sesion</a>
       <a className="registro disabled" href="./mapa.html">Registrarse</a>
-      </div>
-      
+      </div>      
     </ul>
     </div>
     
