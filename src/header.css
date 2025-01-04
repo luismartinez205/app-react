@@ -1,0 +1,602 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(250, 250, 253, 0.884);
+  font-family: "poppins";
+}
+.card {
+  display: flex;
+  flex-direction: row;  
+  height: 94px;
+  align-items: center;
+  border-radius: 10px;
+}
+iframe {
+  margin-left: 48px;
+  margin-bottom: 10px;
+}
+.redes_iframe{
+  width: 369px;
+  height: 411px;
+  margin-left: 0px;
+}
+.container {
+  width: 90%;
+  margin: 0px auto;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr auto auto auto;
+}
+.hero {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://luismartinez205.github.io/bocas/imagenes/bocas-del-toro-panama.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -174px;
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+}
+.hero h6 {
+  color: #d5d031;
+  font-size: 54px;
+  font-family: dancing script;
+  position: absolute;
+  top: 174px;
+  right: 110px;
+}
+.hero_h1 {
+  color: #d5d031db;
+  font-size: 92px;
+  /* font-family: dancing script; */
+  position: absolute;
+  top: 72px;
+  right: 92px;
+  text-shadow: 2px 2px 4px rgba(241, 234, 234, 0.664);
+
+
+}
+
+.sesion {
+  background-color: azure;
+  padding: 11px;
+  border-radius: 5px;
+  color: #30302c;
+  font-size: small;
+  text-decoration: none;
+  font-weight: 300;
+}
+.registro {
+  background-color: azure;
+  padding: 11px;
+  border-radius: 5px;
+  color: #30302c;
+  font-size: small;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.sesion:hover {
+  background-color: #ede724;
+  color: white;
+}
+.heromap {
+  width: 100%;
+  height: 533px;
+  grid-column: span 3;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.nav {
+  height: 80px;
+  list-style: none;
+  background-color: rgba(206, 212, 16, 0.897);
+  grid-column: span 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-btn{
+  gap: 23px;
+  display: flex;
+}
+
+.scro {
+  background-color: crimson;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.main {
+  width: 99%;
+  margin: 1px auto;
+  padding: 16px;
+  background-color: aliceblue;
+  grid-column: span 2;
+  grid-row: 3/4;
+}
+
+.main h3 {
+  margin-left: 118px;
+  color: #bfc506;
+  font-weight: 400;
+}
+.mainmap {
+  width: 100%;
+  padding: 16px;
+  background-color: aliceblue;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border-radius: 50px;
+  width: 114px;
+  height: 31px;
+  margin-top: 87px;
+  margin-bottom: 20px;
+  margin-left: 126px;
+  border: 1px solid #1111158c;
+}
+.btn:hover{
+  background-color: #bfc506;
+}
+.btn a{
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 13px;
+}
+.history1{
+  margin-left: 80px;
+}
+.history2{
+  margin-left: 74px;
+}
+.history3{
+  margin-left: 49px;
+}
+.mainsubtitle {
+  color: #bfc506;
+  margin-left: 97px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.playa1 {
+  width: 95px;
+  height: 132px;
+  background-color: #d5d031;
+  margin: 1px auto;
+  border-radius: 10px;
+  background-image: url("../imagenes/estrella.jpeg");
+  background-size: cover;
+}
+
+.playa2 {
+  width: 95px;
+  height: 132px;
+  background-color: #d5d031;
+  margin: 1px auto;
+  border-radius: 10px;
+  background-image: url("../imagenes/boca-del-drago.jpg");
+  background-size: cover;
+}
+.playa3 {
+  width: 95px;
+  height: 132px;
+  background-color: #d5d031;
+  margin: 1px auto;
+  border-radius: 10px;
+  background-image: url("../imagenes/lancha.jpg");
+  background-size: cover;
+}
+
+.playa1-precio {
+  width: 119px;
+  height: 49px;
+  background-color: #e0e0da7e;
+  border-radius: 20px;
+  margin-top: 6px;
+  font-weight: 400;
+  color: #361507;
+  margin-top: 103px;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-left: -19px;
+}
+.playa1-precio p {
+  margin-left: 15px;
+}
+.price{
+  font-size: 20px;
+  margin-left: 40px;
+  color: blue;
+}
+.tiempo {
+  width: 67px;
+  height: 23px;
+  background-color: #e0e0da7e;
+  border-radius: 20px;
+  margin-left: 14px;
+  margin-top: 6px;
+}
+.tiempo p {
+  color: #181815;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.main-text {
+  width: 486px;
+  margin-left: 83px;
+  font-size: 15px;
+}
+.history {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-left: 61px;
+}
+.history-titles{
+  display: flex;
+  flex-direction:row ;
+
+}
+
+
+.history img {
+  margin-right: 10px;
+  width: 204px;
+  height: 201px;  
+  align-self: start;
+}
+.history h5 {
+  align-self: center;
+  margin-top: 20px;
+  margin-right: 48px;
+}
+
+.article_title {
+  margin-left: 51px;
+  margin-bottom: 18px;
+  max-width: max-content;
+  color: #bfc506;
+  font-weight: 400;
+}
+.main article {
+  width: 658px;
+  margin-left: 59px;
+}
+.main p {
+  text-align: justify;
+}
+
+.mainmap p {
+  margin-left: 11px;
+}
+
+.aside {
+  height: 400px;
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  background-color: rgb(213 208 49);
+  border: #f8f3f3 solid 1px;
+}
+
+.aside_images {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  
+  background-color: rgb(207 207 80);
+  grid-column: 1/-1;
+  grid-row: 4/6;
+  color: black;
+}
+.hero img {
+  width: 40%;
+  margin-left: 10px;
+}
+.mainmap img {
+  width: 4%;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.nav img {
+  width: 32px;
+  margin-left: 7px;
+}
+
+.hero_paragraf {
+  color: white;
+  margin-left: 70px;
+  font-size: 17px;
+}
+
+.aside {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  margin: 6px 0px auto;
+  padding: 12px;
+}
+
+.aside > div:hover {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+}
+
+.overlay img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+.image_grid {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+#google_translate_element select {
+  font-family: poppins;
+  background-color: #eddb09;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#google_translate_element {
+  margin-left: 140px;
+}
+.default-card {
+  display: none !important;
+}
+hr {
+  height: 4px;
+  background-color: #bfc506;
+  margin-bottom: 30px;
+}
+.card-img-top {
+  width: 200px;
+  height: 150px;
+}
+.accordion img{
+  float: right;
+}
+.accordion-button {
+  background-color: #c4c114be;
+  color: rgb(17, 17, 17);
+  padding: 10px;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: background-color 0.2s ease;
+  border-radius: 10px;
+}
+.preguntas{
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.redes{
+  margin-top: 10px;
+  background-color: #ddd;
+  width: 370px;
+  height: 394px;
+  
+}
+
+.accordion-collapse {
+  display: none;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+.carousel-item img{
+  width: 300px;
+  height: 300px;
+}
+
+.active + .accordion-collapse {
+  display: block;
+}
+
+/* Estilos básicos para el carrusel */
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-left: 295px;
+}
+
+.carousel-item {
+  display: none;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item img {
+  width: 600px;
+  height: 300px;
+}
+
+.carousel-item.active {
+  display: block;
+}
+.footer_title{
+  text-align: center;
+  color: #0e0e0e;
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: auto;
+  }
+  .hero {
+    background-image: url("../imagenes/bocas-del-toro-panama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+    background-position-x: -80px;
+    grid-column: span 1;
+    width: 359px;
+  }
+
+  .nav {
+    height: 99px;
+    list-style: none;
+    background-color: rgba(206, 212, 16, 0.897);
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* align-items: center; */
+  }
+
+  .nav img {
+    width: 32px;
+  }
+  .hero img {
+    width: 171px;
+    margin-bottom: -26px;
+  }
+
+  li {
+    display: none;
+  }
+  .hero_paragraf {
+    color: white;
+    margin-left: 73px;
+    font-size: 16px;
+    width: 273px;
+  }
+  .main article {
+    width: 100%;
+    margin-left: 2px;
+  }
+  .main_article iframe {
+    width: 310px;
+    height: 184px;
+  }
+  .aside {
+    grid-column: 1/2;
+    height: 3000px;
+    width: 359px;
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    background-color: rgb(213 208 49);
+    border: #f8f3f3 solid 1px;
+  }
+  #google_translate_element select {
+    font-family: poppins;
+    background-color: #eddb09;
+    border-radius: 10px;
+    margin-left: 31px;
+  }
+  #google_translate_element select {
+    font-family: poppins;
+    background-color: #eddb09;
+    border-radius: 10px;
+    margin-left: 22px;
+  }
+  .article_title {
+    margin-bottom: 19px;
+    max-width: max-content;
+    color: #bfc506;
+    margin-left: 35px;
+  }
+  .article_title {
+    margin-bottom: 19px;
+    max-width: max-content;
+    color: #bfc506;
+    margin-left: 42px;
+    font-size: 19px;
+  }
+  .goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    margin-left: -141px;
+  }
+  footer {
+    background-color: rgb(7, 7, 7);
+    grid-column: span 1;
+  }
+  .image_grid {
+    grid-column: span 1;
+    grid-row: 2/3;
+  }
+}

@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Mapa from './Mapa';
 import Json from './Json';
 import Rick from './Rick'; 
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter ,RouterProvider} from 'react-router-dom';
-import Bienvenida from './Bienvenida';
+import Header from './Header';
 
 const router=createBrowserRouter([
 {
   path:'/',
-  element:<Bienvenida/>,
+  element:<Header/>,
 },
 {
-  path:'/Login',
-  element:<App />, 
+  path:'/mapa',
+  element:<Mapa/>, 
    
 },
 {
