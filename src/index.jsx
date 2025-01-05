@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Mapa from './Mapa';
 import Json from './Json';
-import Rick from './Rick'; 
+import Galeria from './Galeria'; 
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter ,RouterProvider} from 'react-router-dom';
 import Bienvenida from './Bienvenida';
@@ -19,8 +19,8 @@ const router=createBrowserRouter([
    
 },
 {
-  path:'/Rick',
-  element:<Rick/>,
+  path:'/Galeria',
+  element:<Galeria/>,
 },
 {
   path:'/json',

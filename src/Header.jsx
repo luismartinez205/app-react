@@ -23,6 +23,9 @@ function Header() {
         <a href="hoteles.html" class="nav-link">Como llego</a>
       </li>
       <li className="nav-item">
+        <a href="/galeria" class="nav-link">Galeria</a>
+      </li>
+      <li className="nav-item">
         <a
           href="https://www.tripadvisor.co/Hotels-g304170-Isla_Colon_Bocas_del_Toro_Province-Hotels.html"
           target="_blank"
