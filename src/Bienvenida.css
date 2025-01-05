@@ -30,3 +30,32 @@ strong{
     color: #d1d626;
     font-weight: 500;
 }
+.react-chatbot-kit-chat-btn-send{
+    background-color: #bfc506!important;
+    width: 100px;
+    border: none;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+}
+
+.react-chatbot-kit-chat-bot-avatar-container{
+    background-color: #bfc506!important;
+}
+
+.chat-img{
+    width: 55px;    
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.chatbot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.chat-btn{
+    background-color: #89bbf2;
+    padding: 10px;
+}
