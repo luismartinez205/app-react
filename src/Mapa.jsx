@@ -20,7 +20,7 @@ const Mapa = () => {
       <main className="mainmap">
         <h3 className="article_title">Detalles Del Mapa</h3>
         <p className="article_title">Isla Colon, Bocas Del  Toro</p>
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxXvhRpdgUhi-DnEL3ZDYphqspb09MYldLuwe4lH0omwopIsQ3AbTDOOEQIyDhF_R0BSmmCML91EynK6FTb4OjTUHmY5nCvdIgQBG1r8woiErQwgLS0aGBlhLyC646qfHydrj9vUrBViM/w1200-h630-p-k-no-nu/BANDERA+DE+BOCAS+DEL+TORO.jpg" title="9°20′00″N 82°15′00″O" width="80px"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1200px-Flag_of_Panama.svg.png" title="9°20′00″N 82°15′00″O" width="80px"/>
       </main> 
     </div> 
     </> 

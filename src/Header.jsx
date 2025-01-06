@@ -34,7 +34,7 @@ function Header() {
           >Hoteles</a>
       </li>
       <p className="hero_paragraf">Isla Colon, Bocas Del Toro Panama</p>
-      <img src="https://luismartinez205.github.io/bocas/imagenes/icon.png" title="9°20′00″N 82°15′00″O" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1200px-Flag_of_Panama.svg.png" title="9°20′00″N 82°15′00″O" />
       <div id="google_translate_element"></div>
       <div className='nav-btn'>
       <a className=" disabled sesion" href="./mapa.html">Iniciar Sesion</a>
